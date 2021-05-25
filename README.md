@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Adds fields to Settings for entering common social media platform URLs:
+A Silverstripe module which adds fields to Settings for entering common social media platform URLs:
 
 * Facebook
 * Twitter
@@ -29,3 +29,6 @@ Dev/Build
 Add URLs via new "Social media" tab in site Settings.
 
 Add template include: `<% include PurpleSpider\BasicSocialMedia\BasicSocialMedia %>`
+
+## Thanks
+Many thanks to @burnbright for their (SilverStripe External URL Field module)[https://github.com/burnbright/silverstripe-externalurlfield].
