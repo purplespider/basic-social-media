@@ -1,0 +1,18 @@
+{
+	"name": "purplespider/basic-social-media",
+	"description": "Custom SilverStripe tweaks to keep things tidy.",
+	"type": "silverstripe-vendormodule",
+	"homepage": "https://github.com/purplespider/silverstripe-basic-social-media",
+	"keywords": ["silverstripe", "facebook", "social media"],
+	"license": "BSD-3-Clause",
+	"authors": [{
+		"name": "James Cocker",
+		"email": "ssmodules@pswd.biz"
+	}],
+	"support": {
+		"issues": "https://github.com/purplespider/silverstripe-basic-social-media/issues"
+	},
+	"require": {
+		"burnbright/silverstripe-externalurlfield": "*"
+	}
+}

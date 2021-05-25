@@ -1,0 +1,6 @@
+---
+Name: basic-social-media
+---
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - PurpleSpider\BasicSocialMedia\BasicSocialMediaExtension
