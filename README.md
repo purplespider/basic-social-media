@@ -31,4 +31,4 @@ Add URLs via new "Social media" tab in site Settings.
 Add template include: `<% include PurpleSpider\BasicSocialMedia\BasicSocialMedia %>`
 
 ## Thanks
-Many thanks to @burnbright for their (SilverStripe External URL Field module)[https://github.com/burnbright/silverstripe-externalurlfield].
+Many thanks to burnbright for their [SilverStripe External URL Field module](https://github.com/burnbright/silverstripe-externalurlfield).
