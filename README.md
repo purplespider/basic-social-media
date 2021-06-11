@@ -6,6 +6,7 @@ A Silverstripe module which adds fields to Settings for entering common social m
 
 * Facebook
 * Twitter
+* LinkedIn
 * Instagram
 * YouTube
 * Vimeo

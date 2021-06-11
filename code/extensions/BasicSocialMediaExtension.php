@@ -25,6 +25,7 @@ class BasicSocialMediaExtension extends DataExtension
 
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('FacebookURL', 'Facebook URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('TwitterURL', 'Twitter URL'));
+        $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('LinkedInURL', 'LinkedIn URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('InstagramURL', 'Instagram URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('YouTubeURL', 'YouTube URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('VimeoURL', 'Vimeo URL'));
