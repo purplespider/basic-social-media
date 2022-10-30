@@ -20,9 +20,6 @@ class BasicSocialMediaExtension extends DataExtension
 
     public function updateCMSFields(FieldList $fields)
     {
-
-        $fields->removeFieldFromTab("Root.Main","Tagline");
-
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('FacebookURL', 'Facebook URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('TwitterURL', 'Twitter URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('LinkedInURL', 'LinkedIn URL'));
