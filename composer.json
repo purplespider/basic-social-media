@@ -1,6 +1,6 @@
 {
 	"name": "purplespider/basic-social-media",
-	"description": "Custom SilverStripe tweaks to keep things tidy.",
+	"description": "Adds social media URL fields to CMS and provides basic FontAwesome template",
 	"type": "silverstripe-vendormodule",
 	"homepage": "https://github.com/purplespider/silverstripe-basic-social-media",
 	"keywords": ["silverstripe", "facebook", "social media"],
@@ -13,6 +13,12 @@
 		"issues": "https://github.com/purplespider/silverstripe-basic-social-media/issues"
 	},
 	"require": {
-		"burnbright/silverstripe-externalurlfield": "*"
-	}
+		"burnbright/silverstripe-externalurlfield": "pull-ss5"
+	},
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/xini/silverstripe-externalurlfield"
+		}
+	]
 }
