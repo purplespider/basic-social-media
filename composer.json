@@ -13,12 +13,6 @@
 		"issues": "https://github.com/purplespider/silverstripe-basic-social-media/issues"
 	},
 	"require": {
-		"burnbright/silverstripe-externalurlfield": "dev-pull-ss5"
-	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/xini/silverstripe-externalurlfield"
-		}
-	]
+		"fromholdio/silverstripe-externalurlfield": "^1"
+	}
 }
