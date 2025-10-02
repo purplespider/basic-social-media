@@ -13,6 +13,14 @@
 		"issues": "https://github.com/purplespider/silverstripe-basic-social-media/issues"
 	},
 	"require": {
+		"php": "^8.3 || ^8.4",
+		"silverstripe/framework": "^6.0",
 		"fromholdio/silverstripe-externalurlfield": "^2"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"silverstripe/vendor-plugin": true
+		}
 	}
 }

@@ -2,14 +2,13 @@
 
 namespace PurpleSpider\BasicSocialMedia;
 
-use SilverStripe\ORM\DataObject;
+use SilverStripe\Core\Extension;
 use SilverStripe\Forms\FieldList;
-use SilverStripe\ORM\DataExtension;
-use BurnBright\ExternalURLField\ExternalURLField;
+use Fromholdio\ExternalURLField\ExternalURLField;
 
-class BasicSocialMediaExtension extends DataExtension
+class BasicSocialMediaExtension extends Extension
 {
-    private static $db = [
+    private static array $db = [
         'FacebookURL' => 'ExternalURL',
         'TwitterURL' => 'ExternalURL',
         'LinkedInURL' => 'ExternalURL',
