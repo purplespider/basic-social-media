@@ -17,7 +17,7 @@ class BasicSocialMediaExtension extends Extension
         'VimeoURL' => 'ExternalURL',
     ];
 
-    public function updateCMSFields(FieldList $fields)
+    public function updateCMSFields(FieldList $fields): void
     {
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('FacebookURL', 'Facebook URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('TwitterURL', 'Twitter URL'));

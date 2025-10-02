@@ -19,7 +19,8 @@ Note: The template include currently relies on Bootstrap and Font Awesome, but c
  * James Cocker (ssmodulesgithub@pswd.biz)
  
 ## Requirements
- * Silverstripe 4
+ * Silverstripe 6
+ * PHP 8.3 or 8.4
 
 ## Installation
 
