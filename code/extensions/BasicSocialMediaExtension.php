@@ -25,7 +25,5 @@ class BasicSocialMediaExtension extends Extension
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('InstagramURL', 'Instagram URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('YouTubeURL', 'YouTube URL'));
         $fields->addFieldToTab("Root.SocialMedia", ExternalURLField::create('VimeoURL', 'Vimeo URL'));
-
-        return $fields;
     }
 }
