@@ -4,3 +4,8 @@ Name: basic-social-media
 SilverStripe\SiteConfig\SiteConfig:
   extensions:
     - PurpleSpider\BasicSocialMedia\BasicSocialMediaExtension
+
+BurnBright\ExternalURLField\ExternalURLField:
+  default_config:
+    defaultparts:
+      scheme: https

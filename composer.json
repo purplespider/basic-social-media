@@ -13,6 +13,9 @@
 		"issues": "https://github.com/purplespider/silverstripe-basic-social-media/issues"
 	},
 	"require": {
-		"sunnysideup/silverstripe-externalurlfield": "^2"
+		"fromholdio/silverstripe-externalurlfield": "^1.2"
+	},
+	"conflict": {
+		"sunnysideup/silverstripe-externalurlfield": "<3"
 	}
 }
